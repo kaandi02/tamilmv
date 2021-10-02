@@ -17,6 +17,9 @@ function App() {
           <Route path="/" exact>
             <Video title="Videos" fetchURL={requests.fetchList} />
           </Route>
+          <Route path="/home">
+            <h1 style={{color:"white"}}>Home Page</h1>
+          </Route>
           <Route path="/upload">
             <div style={{color:"white",height:"100vh",display:"flex",justifyContent:"center",alignItems:"center",fontFamily:"Open Sans,sans-serif"}}>
               <form encType="multipart/form-data" action="https://vv278o.dood.video/upload/01?54537foxgdvl9j21pplnf" method="post">
