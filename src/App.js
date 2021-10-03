@@ -16,7 +16,6 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Video title="Videos" fetchURL={requests.fetchList} />
-            <h5 style={{color:"white",fontFamily:"Open Sans,sans-serif"}}>New Episode Will Be Uploaded Soon!...</h5> 
           </Route>
           <Route path="*">
             <h3 style={{color:"white",height:"100vh",display:"flex",justifyContent:"center",alignItems:"center",fontFamily:"Open Sans,sans-serif"}}>The Requested URL not found on this Server</h3>
