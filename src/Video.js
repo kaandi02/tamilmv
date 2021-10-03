@@ -21,6 +21,7 @@ function Video({ title,fetchURL }) {
         <div className="video">
             <div className="video__header">
                 <h1>{title}</h1>
+                <h5 style={{color:"white",fontFamily:"Open Sans,sans-serif"}}>New Episode Will Be Uploaded Soon!...</h5> 
             </div>
             <div className="video__con">
                 {Videos.map((video,key) => (
