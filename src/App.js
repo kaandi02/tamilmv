@@ -15,6 +15,7 @@ function App() {
         <Nav />
         <Switch>
           <Route path="/" exact>
+            <h3>New Episode Will Be Uploaded Soon!...</h3>
             <Video title="Videos" fetchURL={requests.fetchList} />
           </Route>
           <Route path="*">
