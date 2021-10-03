@@ -24,9 +24,6 @@ function Video({ title,fetchURL }) {
                 <h1>{title}</h1>
             </div>
             <div className="video__con">
-                <Link to="/upload">
-                    <h3>Upload Site</h3>
-                </Link>
                 {Videos.map((video,key) => (
                     <div className="video__conmain">
                         <div className="video__title">
