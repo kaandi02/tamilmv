@@ -50,6 +50,7 @@
     }
     .video__conmain{
         width:60%;
+        height: 150px;
     }
     .video__title{
         margin-top:0px !important;
@@ -102,7 +103,7 @@
     }
     .video__conmain{
         width: 40%;
-        height: 190px;
+        height: 230px;
         justify-content: flex-start;
     }
     .video__title{
@@ -111,7 +112,7 @@
         font-size: 14px !important;
     }
     .thumbnail_img{
-        width: 250px;
+        width: 230px;
     }
 } 
 
@@ -126,7 +127,7 @@
     }
     .video__conmain{
         width: 30%;
-        height: 230px;
+        height: 260px;
         justify-content: flex-start;
     }
     .video__title{
